@@ -1,0 +1,25 @@
+// Pasos necesarios para ejecutar el compilador u analizador lexico:
+/
+// Abrir la carpeta del proyecto, la cual no es necesario que este en ninguna ruta especifica,
+/
+// Posteriormente, debe  ejecutar la linea de comandos o cmd,
+/
+// Seguidamente, debera ubicar en el cmd la ruta de la carpeta en la cual se encuentra el archivo .jar y .vb,
+/
+// Puede hacerlo escribiendo: cd rutaDeEjemplo/desktop/analizador.
+/
+// Ambos archivos deben estar juntos en la misma carpeta (Si el .vb no esta debe agregarlo),
+/
+// Seguidamente debera ejecutar el comando Java - jar (nombre del archivo).jar,
+/
+// Despues de eso, podra observar un mensaje en el cual la consola pide el nombre del archivo a analizar,
+/
+// Escriba el nombre del archivo sin olvidar la extension .vb (Solo analiza codigo de Visual Basic),
+/
+// Posteriormente el programa va a generar en la misma ruta donde se encuentran ambos archivos (.jar y .vb),
+/
+// El archivo .log, en el cual van a estar los diferentes errores que tenga el codigo del archivo,
+/
+// En el caso de que el codigo analizado este correcto, en el .log no se mostraran errores,
+/
+// Solamente el codigo el cual se analizo.

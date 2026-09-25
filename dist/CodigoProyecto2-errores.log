@@ -1,0 +1,78 @@
+0001  Imports System
+0002  Imports System.IO
+0003 	
+0004  ' Programa avanzado de ejemplo para análisis léxico
+0005  Module ProyectoVB
+0006     Sub Main()
+0007         'Declaración de variables
+0008         Dim numero1 As Integer = 7
+0009         Dim numero2 As Double = 12.5
+0010         Dim texto As String = "Resultado: "
+0011         Dim esMayor As Boolean
+0012 	    Dim producto As Double
+0013 
+0014         'Suma y comparación
+0015         Dim suma As Double = numero1 + numero2
+0016         esMayor = suma > 15
+0017 
+0018         'Condición IF
+0019         If esMayor Then
+0020             Console.WriteLine(texto & "La suma es mayor que 15")
+0021             
+0022         Else
+0023             Console.WriteLine(texto & "La suma es menor que 15")
+0024         End If
+0025 
+0026         Dim contador As Integer = 0
+0027         While contador < 3
+0028             Console.WriteLine("Valor del contador: " & contador)
+0029             contador = contador + 1
+0030         End While
+0031 
+0032        'Llamada a función con parámetros
+0033         	
+0034         producto = Multiplicar(numero1, numero2)
+0035         Console.WriteLine("El producto es: " & producto)
+0036 
+0037         ' Uso de operadores lógicos
+0038         If esMayor And producto > 50 Then
+0039             Console.WriteLine("La suma es mayor y el producto supera 50")
+0040         End If
+0041     End Sub
+0042 
+0043     ' Función para multiplicar dos números y adicionar un IF
+0044     Function Multiplicar(a As Double, b As Double) As Double
+0045         Return a * b
+0046 
+0047 
+0048         Dim i As Integer
+0049         For i = 1 To 3
+0050             Console.WriteLine("Iteración For número: " & i)
+0051         Next
+0052 
+0053     ' If/Else con suma y Console en cada bloque
+0054     Dim edad As Integer = 17
+0055     Dim puntos As Integer = 0
+0056 
+0057     f edad >= 18 Then
+0058         puntos = puntos + 10       
+0059         Console.WriteLine("Acceso concedido: mayor de edad.")
+0060         Console.WriteLine("Puntos acumulados: " & puntos)
+0061     Else
+0062         puntos = puntos + 3           ' Suma
+0063         Console.WriteLine("Acceso restringido: menor de edad.")
+0064         Console.WriteLine("Puntos acumulados (limitados): " & puntos)
+0065     End If
+0066 
+0067 
+0068     End Function
+0069 End Module
+
+Error 100. Línea 0062. Comentario inválido.
+Error 101. Línea 0009. Tipo de dato inválido
+Error 102. Línea 0009. Valor inválido en asignación: 12.5
+Error 103. Línea 0012. Tipo de dato inválido
+Error 104. Línea 0015. Tipo de dato inválido
+Error 105. Línea 0015. Tipo incompatible en operación: numero1
+Error 106. Línea 0038. IF sin ELSE
+Error 107. Línea 0038. IF sin código en ELSE
